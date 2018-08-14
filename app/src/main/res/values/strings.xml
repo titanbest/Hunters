@@ -1,0 +1,14 @@
+<resources>
+    <!--APPLICATION NAME-->
+    <string name="app_name">Hunters</string>
+
+    <!--EXCEPTION MESSAGE RESOURCE-->
+    <string name="exception_message_generic">There was an application error.</string>
+    <string name="please_check_your_internet_connection">Please check your Internet connection.</string>
+    <string name="server_error">Server error.</string>
+    <string name="error">Error</string>
+    <string name="please_try_again_later">Please try again later</string>
+
+    <!--ALL OTHERS RESOURCES-->
+    <string name="loading">Loading</string>
+</resources>

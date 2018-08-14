@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/layoutOpenedMenu"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:background="@drawable/back_layout_bottom_menu_opened"
+        android:visibility="visible">
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/buttonMenuItems"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/colorNull"
+            android:padding="5dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_items" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/buttonMenuArtifact"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toEndOf="@id/buttonMenuItems"
+            android:layout_toRightOf="@id/buttonMenuItems"
+            android:background="@color/colorNull"
+            android:padding="5dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_artefact" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/buttonMenuQuest"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toEndOf="@id/buttonMenuArtifact"
+            android:layout_toRightOf="@id/buttonMenuArtifact"
+            android:background="@color/colorNull"
+            android:padding="5dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_quests" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/buttonMenuInventory"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toEndOf="@id/buttonMenuQuest"
+            android:layout_toRightOf="@id/buttonMenuQuest"
+            android:background="@color/colorNull"
+            android:padding="5dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_inventory" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/buttonHideMenu"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/colorNull"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_hide_bottom_menu" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutClosedMenu"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:background="@drawable/back_layout_bottom_menu_closed"
+        android:visibility="gone">
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/buttonCloseMenu"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/colorNull"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_show_bottom_menu" />
+
+    </RelativeLayout>
+</RelativeLayout>

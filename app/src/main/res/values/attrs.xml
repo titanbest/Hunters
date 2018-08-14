@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HpLvlGoldView">
+        <attr name="lvl" format="string" />
+        <attr name="nextLvl" format="string" />
+        <attr name="hp" format="string" />
+        <attr name="name" format="string" />
+        <attr name="gold" format="string" />
+        <attr name="hpLine" format="integer" />
+        <attr name="hpLineMax" format="integer" />
+        <attr name="subLevel" format="integer"/>
+    </declare-styleable>
+</resources>

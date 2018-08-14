@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorHp">#8c0000</color>
+    <color name="colorHpBack">#747474</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGold">#e7a707</color>
+    <color name="colorView">#4e4e4e</color>
+    <color name="colorName">#c6c6c6</color>
+    <color name="colorNull">#00000000</color>
+    <color name="colorRed">#ec0000</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorTopLayout">#88ffffff</color>
+</resources>
